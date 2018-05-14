@@ -1,3 +1,4 @@
+boolean going=true;
 Squre s;
 void setup()
 { 
@@ -27,9 +28,15 @@ class Squre
   {
     if (x>0||y>0)
     { 
-      y--;
-
-      x--;
+      if (going)
+      
+        y--;
+        x--;
+      
     }
   }
+}
+void mousePressed()
+{
+  going=!going;
 }
