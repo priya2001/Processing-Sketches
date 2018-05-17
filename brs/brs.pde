@@ -5,10 +5,9 @@ void setup()
 }
 void draw()
 {
-}
-void mouseMoved()
-{
+
+
   stroke(255);
-  ellipse(random(600),random(600),5,5);
+  ellipse(random(600),random(600),random(2),random(2));
   
 }
