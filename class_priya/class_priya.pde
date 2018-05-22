@@ -38,7 +38,7 @@ class Priya
   float y;
   float diameter;
   float speedx=5;
-  float speedy=random(-2, 2);
+  float speedy=random(-10, 10);
   Priya(float ptr)
   {
     x=width;
@@ -47,7 +47,7 @@ class Priya
   }
   void display()
   {
-    fill(255, 0, 0);
+    fill(random(255), 255, 255);
     ellipse(x, y, diameter, diameter);
   }
   void moved()
